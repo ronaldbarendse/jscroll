@@ -7,8 +7,8 @@
 
 Official site at [jscroll.com](http://jscroll.com/).
 
-* Copyright &copy; 2011-2015, [Philip Klauzinski](http://gui.ninja)
-* Current Version: 2.3.5
+* Copyright &copy; 2011-2016, [Philip Klauzinski](http://gui.ninja)
+* Current Version: 2.3.6
 * Dual licensed under the MIT and GPL Version 2 licenses.
 * http://jscroll.com/#license
 * http://www.opensource.org/licenses/mit-license.php
@@ -50,7 +50,7 @@ $('.jscroll').jscroll({
 * `nextSelector ('a:last')` - The selector to use for finding the link which contains the href pointing to the next set of content. If this selector is not found, or if it does not contain a href attribute, jScroll will self-destroy and unbind from the element upon which it was called.
 * `contentSelector ('')` - A convenience selector for loading only part of the content in the response for the next set of content. This selector will be ignored if left blank and will apply the entire response to the DOM.
 * `pagingSelector ('')` - Optionally define a selector for your paging controls so that they will be hidden, instead of just hiding the next page link.
-* `callback (false)` - Optionally define a callback function to be called after a set of content has been loaded.
+* `callback (false)` - Optionally define a callback function to be called after a set of content has been loaded. First argument contains the loaded URL.
 
 For more information on the `contentSelector` option and how it loads a response fragment, see the [jQuery documentation for the .load() method](http://api.jquery.com/load/).
 
